@@ -19,11 +19,11 @@ twitterのデータは[twint](https://github.com/twintproject/twint)と呼ばれ
 
 *選択したキーワード*
  - セブンイレブン
- - くら寿司
  - 東京五輪
  - けものフレンズ
  - ドコモ口座問題(ドコモ、ドコモ口座、ゆうちょ銀行)
  - テラスハウス
+ - くら寿司
  - 各政党(自民党、公明党、立憲、共産党、国民民主)
  - 電通
 
@@ -57,9 +57,10 @@ twitterのデータを扱う際には気をつけるべきポイントが幾つ�
 大規模なネガティブなイベントを捉えることに成功しています
  - [新国立競技場問題](https://www.nippon.com/ja/currents/d00188/)、[エンブレム盗作疑惑](https://www.bbc.com/japanese/34125008)
  - [東京五輪の汚水問題](https://news.yahoo.co.jp/byline/hashimotojunji/20190814-00138355/)
- - [2020年コロナによる延期](bbc.com/japanese/52020509)
-直近の感染者増加、森元首相の発言等で更に東京五輪のイメージは冷え込みそうです。  
-Twitterのデータから取得したのでTwitterユーザの特性が反映されるというバイアスを考慮した上でも、東京五輪の印象は右肩下がりのトレンドを持っているようです。  
+ - [2020年コロナによる延期](bbc.com/japanese/52020509)  
+ 
+直近の感染者増加、森元首相の発言等で更に東京五輪のイメージは冷え込みそうです。   
+Twitterのデータから取得したのでTwitterユーザの特性が反映されるというバイアスを考慮した上でも、東京五輪の印象は右肩下がりのトレンドを持っているようです。   
 
 **けものフレンズ**
 <div align="center">
@@ -75,17 +76,41 @@ Twitterのデータから取得したのでTwitterユーザの特性が反映さ
  <img width="700px" src="https://user-images.githubusercontent.com/4949982/107117156-9c933c00-68bb-11eb-8657-42dfb7197f1a.png">
 </div>
 
- - [木村花さんの自殺](https://gendai.ismedia.jp/articles/-/72869)
+ - [木村花さんの自殺](https://gendai.ismedia.jp/articles/-/72869)  
+ 
 自殺という非常に重い話題のためか、テラスハウスの印象の回復に相当の時間がかかっているように見受けられます。
+
+**くら寿司**
+<div align="center">
+ <img width="700px" src="https://user-images.githubusercontent.com/4949982/107118094-3827ab00-68c2-11eb-9715-dded32aefbad.png">
+</div>
+
+ - [くら寿司バイトテロ](https://brandnew-s.com/2019/02/06/kurazushi2/)  
+
+くら寿司は[バイトテロに対して訴訟を起こし業界の健全化を図ろうとする](https://yukawanet.com/archives/kurazushi-2.html)など、社会的に良い行いを行おうとしています。  
+テラスハウスが回復が遅いのに対して、すぐにイメージの回復を行えている等、炎上時の初期対応がいかに重要かがわかります。  
 
 **ドコモ口座問題**
 <div align="center">
  <img width="700px" src="https://user-images.githubusercontent.com/4949982/107117309-e6c8ed00-68bc-11eb-9dcc-89a5797296ca.png">
 </div>
 
- - [ドコモ口座問題](https://www.itmedia.co.jp/news/articles/2009/16/news047.html)
+ - [ドコモ口座問題](https://www.itmedia.co.jp/news/articles/2009/16/news047.html)  
+ 
 この問題の本質は銀行との認証のやり取りに問題があるということでしたが、銀行側のイメージの低下はサービスの低下に比べて、すぐに回復しているようです。  
 ドコモ口座の印象は地に落ちた状態になっており、ここから回復するのは至難に見えますが、ドコモさんはサービスを継続するようです
+
+**電通**
+
+<div align="center">
+ <img width="700px" src="https://user-images.githubusercontent.com/4949982/107118497-c309a500-68c4-11eb-9c3f-1a4d95fb13bd.png">
+</div>
+
+ - [高橋まつりさん過労死事件](https://news.yahoo.co.jp/byline/sasakiryo/20161012-00063150/)
+ - [100日後に死ぬワニ炎上事件](https://webronza.asahi.com/national/articles/2020032500001.html)
+ 
+わたしが新卒の頃は電通さんは高給取りでそんなに悪いイメージはなかったのですが、SNS上では年々、電通さんに対してネガティブな投稿が増えているように感じました。  
+長期的なトレンドを把握したく例外的に長期間集計したのですが、高橋まつりさんの事件をきっかけに、細かいイメージダウンを伴う炎上を繰り返して、イメージが下降傾向になっています。電通報を一時期鍵垢にするなど説明を果たす立場より、炎上が静まるまで待ってしまった戦略が尾を引いているのではないかと想像してしまいました。
 
 ## 論点
 
