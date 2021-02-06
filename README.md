@@ -41,11 +41,12 @@ twitterに出現するような表現に対して柔軟かつ精度良く、そ�
 
 実際にこのモデルにてプリキュアを分類した結果を確認すると以下のようになり、期待した動作が得られました。
 
-<div style="align: center;">
+<div align="center">
   <img width="300" alt="スクリーンショット 2021-02-06 12 40 17" src="https://user-images.githubusercontent.com/4949982/107108046-9af45480-6878-11eb-925b-77786212da95.png">
   <img style="float: left;" width="300" alt="スクリーンショット 2021-02-06 12 40 34" src="https://user-images.githubusercontent.com/4949982/107108047-9def4500-6878-11eb-98c6-0f0ebcf1937a.png">
 </div>
-<p style="text-align: center;"> 左: ポジティブな例, 右: ネガティブな例</p>
+
+<p align="center"> 左: ポジティブな例, 右: ネガティブな例</p>
 
 
 **統計を正確にするためのヒューリスティクス**  
