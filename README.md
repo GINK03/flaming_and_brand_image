@@ -15,22 +15,16 @@ twitterのデータは[twint](https://github.com/twintproject/twint)と呼ばれ
 全て取得すると非常に時間がかかるので、一日あたり1000件に限定して取得を行いました。  
 
 **分析対象の選定**  
-2019 ~ 2020年度の炎上のまとめサイトを見ながら、対象とするキーワードを選択しました。 
+2019 ~ 2020年度の炎上のまとめサイトを見ながら、対象とするキーワードを選択しました。  
+
 *選択したキーワード*
  - セブンイレブン
  - くら寿司
  - 東京五輪
  - けものフレンズ
- - ドコモ口座
- - ドコモ
+ - ドコモ口座問題(ドコモ、ドコモ口座、ゆうちょ銀行)
  - テラスハウス
- - ゆうちょ銀行
- - 自民党
- - 公明党
- - 立憲
- - 共産党
- - 国民民主
- - 山本太郎
+ - 各政党(自民党、公明党、立憲、共産党、国民民主)
  - 電通
 
 **ブランドイメージを定量化する機械学習**  
@@ -55,6 +49,43 @@ twitterのデータを扱う際には気をつけるべきポイントが幾つ�
  - `http`等URLを記入した投稿は採用しない
  
 ## 結果
+**東京五輪**
+<div align="center">
+ <img width="700px" src="https://user-images.githubusercontent.com/4949982/107116773-e890b180-68b8-11eb-84f2-f4fd0a07fef9.png">
+</div>
+
+大規模なネガティブなイベントを捉えることに成功しています
+ - [新国立競技場問題](https://www.nippon.com/ja/currents/d00188/)、[エンブレム盗作疑惑](https://www.bbc.com/japanese/34125008)
+ - [東京五輪の汚水問題](https://news.yahoo.co.jp/byline/hashimotojunji/20190814-00138355/)
+ - [2020年コロナによる延期](bbc.com/japanese/52020509)
+直近の感染者増加、森元首相の発言等で更に東京五輪のイメージは冷え込みそうです。  
+Twitterのデータから取得したのでTwitterユーザの特性が反映されるというバイアスを考慮した上でも、東京五輪の印象は右肩下がりのトレンドを持っているようです。  
+
+**けものフレンズ**
+<div align="center">
+ <img width="700px" src="https://user-images.githubusercontent.com/4949982/107117115-42927680-68bb-11eb-81cc-1b5178bb4f07.png">
+</div>
+
+ - [たつき監督の降板](https://ja.wikipedia.org/wiki/%E3%81%91%E3%82%82%E3%81%AE%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA_(%E3%82%A2%E3%83%8B%E3%83%A1)#%E7%9B%A3%E7%9D%A3%E9%99%8D%E6%9D%BF%E9%A8%92%E5%8B%95)
+ - [細谷伸之氏のツイートによる炎上](https://ha-navi.com/wt-57)
+ 
+
+**テラスハウス**
+<div align="center">
+ <img width="700px" src="https://user-images.githubusercontent.com/4949982/107117156-9c933c00-68bb-11eb-8657-42dfb7197f1a.png">
+</div>
+
+ - [木村花さんの自殺](https://gendai.ismedia.jp/articles/-/72869)
+自殺という非常に重い話題のためか、テラスハウスの印象の回復に相当の時間がかかっているように見受けられます。
+
+**ドコモ口座問題**
+<div align="center">
+ <img width="700px" src="https://user-images.githubusercontent.com/4949982/107117309-e6c8ed00-68bc-11eb-9dcc-89a5797296ca.png">
+</div>
+
+ - [ドコモ口座問題](https://www.itmedia.co.jp/news/articles/2009/16/news047.html)
+この問題の本質は銀行との認証のやり取りに問題があるということでしたが、銀行側のイメージの低下はサービスの低下に比べて、すぐに回復しているようです。  
+ドコモ口座の印象は地に落ちた状態になっており、ここから回復するのは至難に見えますが、ドコモさんはサービスを継続するようです
 
 ## 論点
 
