@@ -44,8 +44,7 @@ twitterに出現するような表現に対して柔軟かつ精度良く、そ�
 
 <div align="center">
   <img width="300" alt="スクリーンショット 2021-02-06 12 40 17" src="https://user-images.githubusercontent.com/4949982/107108046-9af45480-6878-11eb-925b-77786212da95.png">
- <p style="float: left;">     </p>
-  <img style="float: left;" width="300" alt="スクリーンショット 2021-02-06 12 40 34" src="https://user-images.githubusercontent.com/4949982/107108047-9def4500-6878-11eb-98c6-0f0ebcf1937a.png">
+  <img float="left" width="300" alt="スクリーンショット 2021-02-06 12 40 34" src="https://user-images.githubusercontent.com/4949982/107108047-9def4500-6878-11eb-98c6-0f0ebcf1937a.png">
 </div>
 
 <p align="center"> 左: ポジティブな例, 右: ネガティブな例</p>
