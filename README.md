@@ -160,4 +160,7 @@ Twitterのデータから取得したのでTwitterユーザの特性が反映さ
 
 ## コード管理とデータセットについて
  - [コード](https://github.com/GINK03/flaming_and_brand_image)
+   - `each_words.ipynb`: tweetの推論及び前処理
+   - `資料と描画`: グラフ描画
+   - データ収集については[こちら](https://gink03.github.io/twint/)を参考にしてください
  - [データセット](https://www.dropbox.com/s/29nvm9x5ua39an1/dataset.zip?dl=0)
