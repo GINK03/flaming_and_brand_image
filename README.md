@@ -158,5 +158,5 @@ Twitterのデータから取得したのでTwitterユーザの特性が反映さ
 何れにせよ、コンプライアンスを遵守し、SDGs等で企業イメージを一定以上に保つというのは、これからの情報化社会を考えると、やっておくべきことなのでしょう。  
 
 ## コード管理とデータセットについて
- - [コード](https://github.com/GINK03/past_flaming_and_brand_image)
+ - [コード](https://github.com/GINK03/flaming_and_brand_image)
  - [データセット](https://www.dropbox.com/s/29nvm9x5ua39an1/dataset.zip?dl=0)
